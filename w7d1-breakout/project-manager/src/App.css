@@ -1,0 +1,19 @@
+.App > h1{
+  text-align:center;
+}
+.App .projects{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.App .projects article{
+  border:1px solid black;
+  display:inline-block;
+  min-width:800px;
+}
+.App .projects article h1{
+  font-size:2em;
+}
+.App .projects article h2{
+  font-size:1.25em;
+}
